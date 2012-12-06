@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id = "@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+		<ListView
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/words"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_alignTop="@layout/widget"
+		    android:layout_marginLeft="3dp"
+		    android:layout_marginTop="3dp"
+		    android:background="@drawable/widget_frame" />
+
+		<ImageView
+		    android:id="@+id/imageView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignRight="@+id/words"
+		    android:layout_alignTop="@+id/words"
+		    android:src="@drawable/giants_logo" />
+
+    </RelativeLayout>
